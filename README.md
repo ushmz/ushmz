@@ -17,7 +17,7 @@ Here are some ideas to get you started:
 
 <a href="https://github.com/anuraghazra/github-readme-stats">
   <img align="left" src="https://github-readme-stats.vercel.app/api?username=rabhareit&show_icons=true&count_private=true&theme=nord" />
-  <img align="left" src="https://github-readme-stats.vercel.app/api/pin/?username=rabhareit&repo=&theme=nord" />
+  <img align="left" src="https://github-readme-stats.vercel.app/api/pin/?username=rabhareit&repo=Subsuke&theme=nord" />
 </a>
 <a href="https://github.com/anuraghazra/github-readme-stats">
   <img align="left" src="https://github-readme-stats.vercel.app/api/top-langs/?username=rabhareit&count_private=true&exclude_repo=data-science-exercise,dotfiles,minutes&theme=nord&langs_count=10" />
