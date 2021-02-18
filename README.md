@@ -22,4 +22,4 @@ Here are some ideas to get you started:
 
 - 🌱 I’m currently learning shell/rust
 
-![langs count](https://github-readme-stats.vercel.app/api/top-langs/?username=rabhareit&count_private=true&exclude_repo=data-science-exercise,minutes&theme=nord&langs_count=10&layout=compact)
+![langs count](https://github-readme-stats.vercel.app/api/top-langs/?username=rabhareit&count_private=true&exclude_repo=data-science-exercise,adagio&theme=nord&langs_count=10&layout=compact)
