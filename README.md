@@ -17,9 +17,10 @@ Here are some ideas to get you started:
 
 - 🏫 I'm uni' student.
 
-![Github Status](https://github-readme-stats.vercel.app/api?username=rabhareit&show_icons=true&count_private=true&theme=nord)
+![Github Status](https://github-readme-stats.vercel.app/api?username=ushmz&show_icons=true&count_private=true&theme=nord)
+
 <!-- <img align="left" src="https://github-readme-stats.vercel.app/api/pin/?username=rabhareit&repo=Subsuke&theme=nord" /> -->
 
 - 🌱 I’m currently learning shell/rust
 
-![langs count](https://github-readme-stats.vercel.app/api/top-langs/?username=rabhareit&count_private=true&exclude_repo=data-science-exercise,adagio&theme=nord&langs_count=10&layout=compact)
+![langs count](https://github-readme-stats.vercel.app/api/top-langs/?username=ushmz&count_private=true&exclude_repo=data-science-exercise,adagio&theme=nord&langs_count=10&layout=compact)
