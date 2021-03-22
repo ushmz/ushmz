@@ -15,7 +15,7 @@ Here are some ideas to get you started:
 - ⚡ Fun fact: ...
 -->
 
-- 🏫 I'm uni' student.
+- 🏫 I'm Master's student.
 
 ![Github Status](https://github-readme-stats.vercel.app/api?username=ushmz&show_icons=true&count_private=true&theme=nord)
 
