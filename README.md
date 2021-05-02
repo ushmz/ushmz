@@ -23,4 +23,4 @@ Here are some ideas to get you started:
 
 - 🌱 I’m currently learning shell/rust
 
-![](https://github-readme-stats.vercel.app/api/top-langs/?username=ushmz&count_private=true&exclude_repo=data-science-exercise,adagio&theme=nord&langs_count=10&layout=compact)
+![](https://github-readme-stats.vercel.app/api/top-langs/?username=ushmz&count_private=true&exclude_repo=data-science-exercise,adagio,dotfiles&theme=nord&langs_count=10&layout=compact)
