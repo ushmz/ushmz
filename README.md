@@ -5,8 +5,8 @@
 - 🌱 I’m currently learning shell/rust
 
 <a href="https://github.com/anuraghazra/github-readme-stats">
-  <img align="left" src="https://github-readme-stats.vercel.app/api?username=ushmz&show_icons=true&count_private=true&theme=nord" />
+  <img height="320px" align="left" src="https://github-readme-stats.vercel.app/api?username=ushmz&show_icons=true&count_private=true&theme=nord" />
 </a>
 <a href="https://github.com/anuraghazra/github-readme-stats">
-  <img align="left" src="https://github-readme-stats.vercel.app/api/top-langs/?username=ushmz&count_private=true&exclude_repo=data-science-exercise,adagio,dotfiles&theme=nord&langs_count=10&layout=compact" />
+  <img height="320px" align="right" src="https://github-readme-stats.vercel.app/api/top-langs/?username=ushmz&count_private=true&exclude_repo=data-science-exercise,adagio,dotfiles&theme=nord&langs_count=10&layout=compact" />
 </a>
