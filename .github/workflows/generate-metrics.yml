@@ -1,0 +1,17 @@
+name: Generate metrics images
+
+on:
+  schedule: # execute every 24 hours
+    - cron: "* */24 * * *"
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    name: generate-metrics-svg
+    permissions:
+      contents: write
+
+    steps:
+      - name: Metrics embed
+        uses: lowlighter/metrics@v3.32
