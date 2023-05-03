@@ -13,5 +13,11 @@ jobs:
       contents: write
 
     steps:
-      - name: Metrics embed
-        uses: lowlighter/metrics@v3.32
+      - name: Icons
+        uses: lowlighter/metrics@latest
+        with:
+          filename: metrics.plugin.topics.icons.svg
+          base: ""
+          plugin_topics: yes
+          plugin_topics_limit: 0
+          plugin_topics_mode: icons
