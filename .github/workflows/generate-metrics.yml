@@ -1,8 +1,8 @@
 name: Generate metrics images
 
 on:
-  schedule: # execute every 24 hours
-    - cron: "* */24 * * *"
+  schedule:
+    - cron: "0 0 * * 0"
   workflow_dispatch:
 
 jobs:
@@ -13,49 +13,15 @@ jobs:
       contents: write
 
     steps:
-      - name: Starred topics
-        uses: lowlighter/metrics@latest
-        with:
-          filename: metrics.plugin.topics.icons.svg
-          token: ${{ secrets.METRICS_TOKEN }}
-          base: ""
-          plugin_topics: yes
-          plugin_topics_limit: 15
-          plugin_topics_mode: icons
-      - name: Lines of code changed
-        uses: lowlighter/metrics@latest
-        with:
-          filename: metrics.plugin.lines.svg
-          token: ${{ secrets.METRICS_TOKEN }}
-          base: repositories
-          plugin_lines: yes
-      - name: Comment reactions
-        uses: lowlighter/metrics@latest
-        with:
-          filename: metrics.plugin.reactions.svg
-          token: ${{ secrets.METRICS_TOKEN }}
-          base: ""
-          plugin_reactions: yes
-          plugin_reactions_limit: 100
-          plugin_reactions_details: percentage
-      - name: Featured star list
-        uses: lowlighter/metrics@latest
-        with:
-          filename: metrics.plugin.starlists.svg
-          base: ""
-          token: ${{ secrets.METRICS_TOKEN }}
-          plugin_starlists: yes
-          plugin_starlists_limit_repositories: 2
-      - name: Featured star list languages
-        uses: lowlighter/metrics@latest
-        with:
-          filename: metrics.plugin.starlists.languages.svg
-          token: ${{ secrets.METRICS_TOKEN }}
-          base: ""
-          plugin_starlists: yes
-          plugin_starlists_languages: yes
-          plugin_starlists_limit_languages: 8
-          plugin_starlists_limit_repositories: 0
+#       - name: Starred topics
+#         uses: lowlighter/metrics@latest
+#         with:
+#           filename: metrics.plugin.topics.icons.svg
+#           token: ${{ secrets.METRICS_TOKEN }}
+#           base: ""
+#           plugin_topics: yes
+#           plugin_topics_limit: 15
+#           plugin_topics_mode: icons
       - name: Organization introduction
         uses: lowlighter/metrics@latest
         with:
@@ -64,10 +30,44 @@ jobs:
           user: ushmz
           base: header
           plugin_introduction: yes
-      - name: Using classic charts
+      - name: Lines of code changed
+        uses: lowlighter/metrics@latest
+        with:
+          filename: metrics.plugin.lines.svg
+          token: ${{ secrets.METRICS_TOKEN }}
+          base: repositories
+          plugin_lines: yes
+      - name: Stargazers (classic charts)
         uses: lowlighter/metrics@latest
         with:
           filename: metrics.plugin.stargazers.svg
           token: ${{ secrets.METRICS_TOKEN }}
           base: ""
           plugin_stargazers: yes
+#       - name: Comment reactions
+#         uses: lowlighter/metrics@latest
+#         with:
+#           filename: metrics.plugin.reactions.svg
+#           token: ${{ secrets.METRICS_TOKEN }}
+#           base: ""
+#           plugin_reactions: yes
+#           plugin_reactions_limit: 100
+#           plugin_reactions_details: percentage
+#       - name: Featured star list
+#         uses: lowlighter/metrics@latest
+#         with:
+#           filename: metrics.plugin.starlists.svg
+#           base: ""
+#           token: ${{ secrets.METRICS_TOKEN }}
+#           plugin_starlists: yes
+#           plugin_starlists_limit_repositories: 2
+#       - name: Featured star list languages
+#         uses: lowlighter/metrics@latest
+#         with:
+#           filename: metrics.plugin.starlists.languages.svg
+#           token: ${{ secrets.METRICS_TOKEN }}
+#           base: ""
+#           plugin_starlists: yes
+#           plugin_starlists_languages: yes
+#           plugin_starlists_limit_languages: 8
+#           plugin_starlists_limit_repositories: 0
