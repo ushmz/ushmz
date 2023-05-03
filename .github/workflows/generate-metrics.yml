@@ -43,6 +43,7 @@ jobs:
         with:
           filename: metrics.plugin.starlists.svg
           base: ""
+          token: ${{ secrets.METRICS_TOKEN }}
           plugin_starlists: yes
           plugin_starlists_limit_repositories: 2
       - name: Featured star list languages
